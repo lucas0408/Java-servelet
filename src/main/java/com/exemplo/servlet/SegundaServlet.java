@@ -1,4 +1,4 @@
-package com.exemplo.servelet;
+package com.exemplo.servlet;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -9,7 +9,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 
 @WebServlet
-public class SegundaServelet extends HttpServlet {
+public class SegundaServlet extends HttpServlet {
 
     @Override
     protected void service(HttpServletRequest request, HttpServletResponse response)

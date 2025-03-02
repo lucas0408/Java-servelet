@@ -1,15 +1,21 @@
-<!DOCTYPE web-app PUBLIC
- "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
- "http://java.sun.com/dtd/web-app_2_3.dtd" >
-
-<web-app>
+<web-app >
   <display-name>Archetype Created Web Application</display-name>
   <servlet>
-    <servlet-name>segunda-servelet</servlet-name>
-    <servlet-class>com.exemplo.servelet.SegundaServelet</servlet-class>
+    <servlet-name>segundaServlet</servlet-name>
+    <servlet-class>com.exemplo.servlet.SegundaServlet</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>segunda-servelet</servlet-name>
-    <url-pattern>/segundaservelet</url-pattern>
+    <servlet-name>segundaServlet</servlet-name>
+    <url-pattern>/segundaServlet</url-pattern>
   </servlet-mapping>
+
+  <servlet>
+    <servlet-name>criaCantor</servlet-name>
+    <servlet-class>com.exemplo.servlet.CriaCantorServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>criaCantor</servlet-name>
+    <url-pattern>/criaCantor</url-pattern>
+  </servlet-mapping>
+
 </web-app>
