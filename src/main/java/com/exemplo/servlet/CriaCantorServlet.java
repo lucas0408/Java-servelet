@@ -7,8 +7,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet
+
 public class CriaCantorServlet extends HttpServlet {
+
 
     @Override
     protected void service(HttpServletRequest request, HttpServletResponse response)
